@@ -329,8 +329,9 @@ simFla.ux.plugins.signaturePad = Ext.extend(Ext.util.Observable, {
          iHeight = oCanvas.height;
     
          oCtx.beginPath();
-         oCtx.strokeStyle = "rgba(0,0,0, 0.5)";
-         oCtx.strokeWidth = "4px";
+         oCtx.strokeStyle = "rgba(0,0,0, 0.8)";
+         oCtx.strokeWidth = "3px";
+         oCtx.lineWidth = 3;
    
  
          oCanvas.onmousedown = function(e) {
